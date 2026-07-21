@@ -15,7 +15,7 @@ import type { Recipe } from "../types";
 export const recipes: Recipe[] = [
   {
     slug: "margherita",
-    image: "/images/pizzas/Margherita.png",
+    image: "/images/pizzas/Margherita.webp",
     order: 1,
     name: "Margherita",
     tagline: "O clássico da simplicidade.",
@@ -45,7 +45,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "calabresa",
-    image: "/images/pizzas/Calabresa.png",
+    image: "/images/pizzas/Calabresa.webp",
     order: 2,
     name: "Calabresa",
     tagline: "O sabor mais pedido do Brasil, na medida certa.",
@@ -74,7 +74,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "quatro-queijos",
-    image: "/images/pizzas/QuatroQueijos.png",
+    image: "/images/pizzas/QuatroQueijos.webp",
     order: 3,
     name: "Quatro Queijos",
     tagline: "Cremosidade em camadas, sem pesar na massa.",
@@ -106,7 +106,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "parma-e-rucula",
-    image: "/images/pizzas/ParmaRucula.png",
+    image: "/images/pizzas/ParmaRucula.webp",
     order: 4,
     name: "Parma e Rúcula",
     tagline: "Elegância em poucos ingredientes.",
@@ -140,7 +140,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "cogumelos",
-    image: "/images/pizzas/Cogumelos.png",
+    image: "/images/pizzas/Cogumelos.webp",
     order: 5,
     name: "Cogumelos",
     tagline: "Terroso, simples e sofisticado.",
@@ -173,7 +173,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "frango-com-requeijao",
-    image: "/images/pizzas/FrangoRequeijao.png",
+    image: "/images/pizzas/FrangoRequeijao.webp",
     order: 6,
     name: "Frango com Requeijão",
     tagline: "O preferido de sempre, sem exageros.",
@@ -205,7 +205,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "bacon-milho-requeijao",
-    image: "/images/pizzas/BaconMilhoRequeijao.png",
+    image: "/images/pizzas/BaconMilhoRequeijao.webp",
     order: 7,
     name: "Bacon, Milho e Requeijão",
     tagline: "Defumado, doce e cremoso em equilíbrio.",
@@ -233,7 +233,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "lombinho-geleia-pimenta",
-    image: "/images/pizzas/LombinhoGeleia.png",
+    image: "/images/pizzas/LombinhoGeleia.webp",
     order: 8,
     name: "Lombinho com Geleia de Abacaxi com Pimenta",
     tagline: "Doce e picante em doses pequenas — o efeito surpresa.",
@@ -264,7 +264,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "chocolate-com-morangos",
-    image: "/images/pizzas/ChocolateMorangos.png",
+    image: "/images/pizzas/ChocolateMorangos.webp",
     order: 9,
     name: "Chocolate com Morangos",
     tagline: "A sobremesa que fecha a mesa com chave de ouro.",
@@ -292,7 +292,7 @@ export const recipes: Recipe[] = [
   },
   {
     slug: "doce-de-leite-com-banana",
-    image: "/images/pizzas/DoceDeLeiteBanana.png",
+    image: "/images/pizzas/DoceDeLeiteBanana.webp",
     order: 10,
     name: "Doce de Leite com Banana",
     tagline: "Simples, afetiva, do jeito que pizza doce deveria ser.",
