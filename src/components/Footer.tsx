@@ -6,8 +6,8 @@ export default function Footer() {
     <footer className="footer" id="contato">
       <div className="footer__photo">
         <PhotoSlot
+          src="/images/footer/MassaFarinhada.webp"
           alt="Pizza artesanal sendo servida à mesa"
-          label="Foto de encerramento — pizza sendo servida"
         />
       </div>
       <div className="crust-edge footer__crust" aria-hidden />

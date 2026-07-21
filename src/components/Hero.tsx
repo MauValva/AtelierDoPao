@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero__photo">
         <PhotoSlot
           alt="Pizza artesanal recém-assada, vista de cima"
-          label="Foto de capa — uma pizza artesanal bem servida"
+          src="/images/hero/MassaAssada.webp"
         />
       </div>
       <div className="hero__content wrap">
