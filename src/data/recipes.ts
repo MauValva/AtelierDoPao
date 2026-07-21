@@ -38,7 +38,6 @@ export const recipes: Recipe[] = [
       {
         text: "Retire a pizza do forno e finalize com as folhas de manjericão fresco.",
       },
-      { text: "Aguarde cerca de 2 minutos antes de cortar e servir." },
     ],
     secret:
       "A simplicidade desta pizza faz com que cada ingrediente tenha grande importância. O manjericão deve ser adicionado somente após a pizza sair do forno, preservando seus aromas e garantindo um acabamento mais elegante.",
@@ -48,29 +47,31 @@ export const recipes: Recipe[] = [
     image: "/images/pizzas/Calabresa.webp",
     order: 2,
     name: "Calabresa",
-    tagline: "O sabor mais pedido do Brasil, na medida certa.",
+    tagline: "Um clássico brasileiro com inspiração italiana.",
     category: "salgada",
-    bakeTime: "8 a 10 minutos",
+    bakeTime: "7 a 9 minutos",
     ingredients: [
       { name: "Molho de tomate", quantity: "70 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
-      { name: "Calabresa fatiada fina", quantity: "80 g" }, // CONFERIR
-      { name: "Cebola roxa em rodelas finas", quantity: "1/4 de unidade" },
+      { name: "Calabresa fatiada fina", quantity: "70 g" },
+      { name: "Cebola roxa em rodelas finas", quantity: "25 g" },
+      { name: "Orégano", quantity: "a gosto" },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
       {
         text: "Espalhe o molho de tomate uniformemente, deixando a borda livre.",
       },
-      { text: "Distribua a mozzarella e, em seguida, a calabresa fatiada." },
-      { text: "Finalize com as rodelas de cebola roxa por cima da calabresa." },
+      { text: "Distribua a mozzarella de forma uniforme sobre toda a pizza." },
+      { text: "Disponha as fatias de calabresa sem sobrepô-las em excesso." },
+      { text: "Espalhe a cebola fatiada sobre a pizza." },
+      { text: "Finalize com uma pitada de orégano." },
       {
-        text: "Leve ao forno por 8 a 10 minutos, até a calabresa levemente tostar nas bordas.",
+        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
       },
-      { text: "Aguarde cerca de 2 minutos antes de cortar e servir." },
     ],
     secret:
-      "A calabresa solta gordura durante o assado — por isso a fatia deve ser fina, nunca em cubos grossos. Isso evita uma pizza encharcada e mantém a massa crocante.",
+      "Você pode utilizar a calabresa de sua preferência, mas dê preferência às versões defumadas e fatiadas finamente. Distribuir as fatias sem excesso permite que cada ingrediente apareça em equilíbrio, preservando a leveza da pizza e valorizando a massa de fermentação natural.",
   },
   {
     slug: "quatro-queijos",
@@ -81,28 +82,34 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeTime: "7 a 9 minutos",
     ingredients: [
-      { name: "Molho de tomate (camada fina)", quantity: "50 g" },
-      { name: "Mozzarella ralada", quantity: "60 g" },
-      { name: "Gorgonzola em pequenos pedaços", quantity: "30 g" },
-      { name: "Parmesão ralado na hora", quantity: "20 g" },
-      { name: "Catupiry® ou requeijão cremoso", quantity: "30 g" },
+      { name: "Molho de tomate", quantity: "60 g" },
+      { name: "Mozzarella ralada", quantity: "70 g" },
+      { name: "Gorgonzola", quantity: "20 g" },
+      { name: "Parmesão ralado", quantity: "15 g" },
+      { name: "Requeijão cremoso", quantity: "30 g" },
+      { name: "Orégano", quantity: "a gosto" },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
-      { text: "Espalhe uma camada fina de molho de tomate." },
       {
-        text: "Distribua a mozzarella e, por cima, o gorgonzola em pedaços pequenos.",
+        text: "Espalhe o molho de tomate uniformemente, deixando a borda livre.",
       },
       {
-        text: "Finalize com colheradas de Catupiry® ou requeijão espalhadas pela superfície.",
+        text: "Distribua a mozzarella de forma uniforme sobre toda a pizza.",
       },
       {
-        text: "Leve ao forno por 7 a 9 minutos e polvilhe o parmesão assim que sair do forno.",
+        text: "Acrescente pequenas porções de requeijão espalhadas pela superfície.",
       },
-      { text: "Aguarde cerca de 2 minutos antes de cortar e servir." },
+      {
+        text: "Esfarele o gorgonzola em pequenos pedaços, distribuindo-o de maneira uniforme.",
+      },
+      { text: "Finalize com o parmesão ralado e uma pitada de orégano." },
+      {
+        text: "Leve ao forno por 7 a 9 minutos, ou até que os queijos estejam completamente derretidos e levemente gratinados.",
+      },
     ],
     secret:
-      "Quatro queijos não é sinônimo de excesso: o segredo é usar queijos com personalidades diferentes (cremoso, salgado, forte, suave) em pequena quantidade cada um, para que se complementem em vez de competir.",
+      "O equilíbrio faz toda a diferença na pizza Quatro Queijos. A mozzarella garante a base cremosa, o requeijão adiciona suavidade, o gorgonzola traz personalidade e o parmesão finaliza com um toque marcante. Respeitando essas proporções, os sabores se complementam sem esconder a leveza da massa de fermentação natural.",
   },
   {
     slug: "parma-e-rucula",
@@ -111,184 +118,214 @@ export const recipes: Recipe[] = [
     name: "Parma e Rúcula",
     tagline: "Elegância em poucos ingredientes.",
     category: "salgada",
-    bakeTime: "6 a 8 minutos",
+    bakeTime: "7 a 9 minutos",
     ingredients: [
-      { name: "Mozzarella fatiada (sem molho de tomate)", quantity: "110 g" },
-      { name: "Presunto de Parma fatiado fino", quantity: "50 g" }, // CONFERIR
-      { name: "Rúcula fresca", quantity: "1 punhado" },
-      { name: "Lascas de parmesão", quantity: "a gosto" },
-      { name: "Azeite extravirgem", quantity: "a gosto" },
+      { name: "Molho de tomate", quantity: "70 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
+      { name: "Presunto Parma fatiado", quantity: "50 g" },
+      { name: "Rúcula fresca", quantity: "20 g" },
+      { name: "Parmesão ralado", quantity: "10 g" },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
       {
-        text: "Distribua a mozzarella fatiada por toda a superfície, sem molho de tomate.",
+        text: "Espalhe o molho de tomate uniformemente, deixando a borda livre.",
       },
       {
-        text: "Leve ao forno por 6 a 8 minutos, até o queijo derreter e a borda dourar.",
+        text: "Distribua a mozzarella de forma uniforme sobre toda a pizza.",
       },
       {
-        text: "Retire do forno e finalize com as fatias de presunto de Parma.",
+        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
       },
       {
-        text: "Cubra com a rúcula fresca, lascas de parmesão e um fio de azeite.",
+        text: "Retire a pizza do forno.",
       },
-      { text: "Sirva imediatamente, para que a rúcula não murche." },
+      { text: "Acrescente a rúcula fresca" },
+      {
+        text: "Distribua delicadamente as fatias de presunto Parma sobre a pizza ainda quente.",
+      },
+      { text: "Finalize com o parmesão ralado." },
     ],
     secret:
-      "Parma e rúcula são ingredientes crus por natureza — nunca vão ao forno. Adicioná-los somente depois de assar é o que garante o frescor e o contraste de temperatura que definem essa pizza.",
+      "O presunto Parma e a rúcula devem ser adicionados somente após a pizza sair do forno. O calor da pizza é suficiente para realçar o sabor do Parma, enquanto a rúcula mantém seu frescor e leve picância, criando um contraste perfeito com a mozzarella.",
   },
   {
     slug: "cogumelos",
     image: "/images/pizzas/Cogumelos.webp",
     order: 5,
     name: "Cogumelos",
-    tagline: "Terroso, simples e sofisticado.",
+    tagline: "Sabores terrosos e muito aroma.",
     category: "salgada",
-    bakeTime: "8 a 10 minutos",
+    bakeTime: "7 a 9 minutos",
     ingredients: [
       { name: "Molho de tomate", quantity: "60 g" },
-      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "90 g" },
+      { name: "Cogumelos fatiados", quantity: "80 g" },
+      { name: "Folhas de manjericão fresco", quantity: "6 a 8 folhas" },
       {
-        name: "Mix de cogumelos fatiados (paris, shimeji, portobello)",
-        quantity: "80 g",
-      }, // CONFERIR
-      { name: "Alho laminado", quantity: "1 dente" },
-      { name: "Tomilho ou salsinha fresca", quantity: "a gosto" },
+        name: "Sugestão: Cogumelo Paris, Shimeji, Shiitake ou Portobello.",
+        quantity: "",
+      },
     ],
     steps: [
       {
-        text: "Refogue rapidamente os cogumelos com o alho laminado em fio de azeite, só para retirar a umidade.",
+        text: "Aqueça uma frigideira em fogo alto e refogue rapidamente os cogumelos por cerca de 2 a 3 minutos, apenas para eliminar o excesso de umidade. Reserve e deixe esfriar levemente.",
       },
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
       {
         text: "Espalhe o molho de tomate uniformemente, deixando a borda livre.",
       },
-      { text: "Distribua a mozzarella e, por cima, os cogumelos refogados." },
-      { text: "Leve ao forno por 8 a 10 minutos, até o queijo gratinar." },
-      { text: "Finalize com tomilho ou salsinha fresca antes de servir." },
+      { text: "Distribua a mozzarella de forma uniforme sobre toda a pizza." },
+      { text: "Espalhe os cogumelos sobre a mozzarella." },
+      {
+        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+      },
+      {
+        text: "Retire a pizza do forno e finalize com as folhas de manjericão fresco.",
+      },
     ],
     secret:
-      "Cogumelo cru solta água no forno e encharca a massa. Um refogado rápido antes de montar a pizza concentra o sabor e mantém a base crocante.",
+      "Os cogumelos possuem grande quantidade de água. Refogá-los rapidamente antes da montagem concentra seus sabores e evita que liberem líquido durante o forno, preservando a leveza da pizza e a crocância da massa.",
   },
   {
     slug: "frango-com-requeijao",
     image: "/images/pizzas/FrangoRequeijao.webp",
     order: 6,
     name: "Frango com Requeijão",
-    tagline: "O preferido de sempre, sem exageros.",
+    tagline: "A favorita brasileira em versão artesanal.",
     category: "salgada",
-    bakeTime: "8 a 10 minutos",
+    bakeTime: "7 a 9 minutos",
     ingredients: [
-      { name: "Molho de tomate", quantity: "60 g" },
-      { name: "Mozzarella ralada", quantity: "80 g" },
-      { name: "Frango desfiado temperado", quantity: "90 g" }, // CONFERIR
+      { name: "Molho de tomate", quantity: "70 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
+      { name: "Frango desfiado temperado", quantity: "80 g" },
       { name: "Requeijão cremoso", quantity: "50 g" },
-      { name: "Milho verde (opcional)", quantity: "2 col. sopa" },
+      { name: "Orégano", quantity: "a gosto" },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
       {
         text: "Espalhe o molho de tomate uniformemente, deixando a borda livre.",
       },
-      { text: "Distribua a mozzarella e, por cima, o frango desfiado." },
+      { text: "Distribua a mozzarella sobre toda a pizza." },
       {
-        text: "Finalize com colheradas de Catupiry® espalhadas pela superfície.",
+        text: "Espalhe o frango desfiado de maneira uniforme.",
       },
       {
-        text: "Leve ao forno por 8 a 10 minutos, até o Catupiry® dourar levemente.",
+        text: "Faça pequenos pontos de requeijão por toda a superfície da pizza.",
       },
-      { text: "Aguarde cerca de 2 minutos antes de cortar e servir." },
+      { text: "Finalize com uma pitada de orégano." },
+      {
+        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+      },
     ],
     secret:
-      "O frango deve estar bem temperado e levemente úmido antes de ir à pizza — frango seco é o motivo nº 1 de uma pizza de frango decepcionante.",
+      "O segredo dessa pizza está no frango. Ele deve estar bem temperado, porém sem excesso de umidade. Um recheio mais seco preserva a crocância da massa e evita que a pizza fique pesada. ",
   },
   {
     slug: "bacon-milho-requeijao",
     image: "/images/pizzas/BaconMilhoRequeijao.webp",
     order: 7,
     name: "Bacon, Milho e Requeijão",
-    tagline: "Defumado, doce e cremoso em equilíbrio.",
+    tagline: "O encontro perfeito entre crocância e cremosidade.",
     category: "salgada",
-    bakeTime: "8 a 10 minutos",
+    bakeTime: "7 a 9 minutos",
     ingredients: [
-      { name: "Molho de tomate", quantity: "60 g" },
-      { name: "Mozzarella ralada", quantity: "90 g" },
-      { name: "Bacon em cubos pequenos, já frito", quantity: "60 g" }, // CONFERIR
-      { name: "Milho verde", quantity: "3 col. sopa" },
+      { name: "Molho de tomate", quantity: "70 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
+      { name: "BBacon em cubos", quantity: "60 g" }, // CONFERIR
+      { name: "Milho verde", quantity: "40 g" },
       { name: "Requeijão cremoso", quantity: "40 g" },
+      { name: "Orégano", quantity: "a gosto" },
     ],
     steps: [
-      { text: "Frite o bacon em cubos até dourar e escorra bem a gordura." },
+      { text: "Frite o bacon em fogo médio até ficar dourado e crocante." },
+      {
+        text: "Escorra o excesso de gordura em papel-toalha e deixe esfriar por alguns minutos.",
+      },
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
       {
         text: "Espalhe o molho de tomate uniformemente, deixando a borda livre.",
       },
-      { text: "Distribua a mozzarella, o bacon e o milho verde." },
-      { text: "Finalize com fios de requeijão cremoso sobre a cobertura." },
-      { text: "Leve ao forno por 8 a 10 minutos, até dourar." },
+      { text: "Distribua a mozzarella de forma uniforme sobre toda a pizza." },
+      { text: "Acrescente o milho-verde bem escorrido." },
+      { text: "Espalhe o bacon já dourado." },
+      { text: "Distribua pequenas porções de requeijão por toda a pizza." },
+      { text: "Finalize com uma pitada de orégano." },
+      {
+        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+      },
     ],
     secret:
-      "Fritar e escorrer bem o bacon antes de montar evita que a gordura em excesso encharque a massa — a mesma lógica de qualquer proteína gordurosa nesta pizza.",
+      "Prepare o bacon antes da montagem e escorra bem o excesso de gordura. Da mesma forma, utilize o milho sempre bem escorrido. Esses cuidados evitam excesso de umidade e ajudam a manter a massa crocante. Distribuir o requeijão em pequenas porções, em vez de espalhá-lo completamente, garante uma pizza mais equilibrada e com sabor em cada fatia.",
   },
   {
     slug: "lombinho-geleia-pimenta",
     image: "/images/pizzas/LombinhoGeleia.webp",
     order: 8,
-    name: "Lombinho com Geleia de Abacaxi com Pimenta",
-    tagline: "Doce e picante em doses pequenas — o efeito surpresa.",
+    name: "Lombinho e Geleia de Abacaxi com Pimenta",
+    tagline: "O equilíbrio perfeito entre o defumado, o cremoso e o agridoce.",
     category: "salgada",
-    bakeTime: "8 a 10 minutos",
+    bakeTime: "7 a 9 minutos",
     ingredients: [
-      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
-      { name: "Lombo suave fatiado fino", quantity: "80 g" }, // CONFERIR
-      { name: "Geleia de abacaxi com pimenta", quantity: "40 g" },
-      { name: "Cebolinha fresca picada", quantity: "a gosto" },
+      { name: "Molho de tomate", quantity: "60 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
+      { name: "Lombinho defumado fatiado", quantity: "70 g" },
+      { name: "Geleia de abacaxi com pimenta", quantity: "30 g" },
+      { name: "Requeijão cremoso", quantity: "40 g" },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
       {
-        text: "Distribua a mozzarella por toda a superfície, sem molho de tomate.",
-      },
-      { text: "Adicione o lombo fatiado fino sobre o queijo." },
-      {
-        text: "Leve ao forno por 8 a 10 minutos, até o queijo derreter e o lombo dourar nas pontas.",
+        text: "Espalhe o molho de tomate uniformemente, deixando a borda livre.",
       },
       {
-        text: "Retire do forno e distribua pequenas porções da geleia de abacaxi com pimenta.",
+        text: "Distribua a mozzarella sobre toda a pizza.",
       },
-      { text: "Finalize com cebolinha fresca picada antes de servir." },
+      { text: "Acomode as fatias de lombinho de maneira uniforme." },
+      {
+        text: "Distribua pequenas porções de requeijão entre as fatias de lombinho.",
+      },
+      {
+        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+      },
+      {
+        text: "Retire a pizza do forno e finalize com pequenas porções da geleia de abacaxi com pimenta.",
+      },
     ],
     secret:
-      "A geleia entra depois de assar e em pequenas porções espalhadas — não em camada única. Isso cria pontos de doce e picante em vez de dominar a pizza inteira.",
+      "A geleia deve ser adicionada somente após a pizza sair do forno. Assim ela preserva seu brilho, seu sabor agridoce e o leve toque picante, criando um contraste perfeito com o lombinho defumado e o requeijão.",
   },
   {
     slug: "chocolate-com-morangos",
     image: "/images/pizzas/ChocolateMorangos.webp",
     order: 9,
     name: "Chocolate com Morangos",
-    tagline: "A sobremesa que fecha a mesa com chave de ouro.",
+    tagline: "O encontro perfeito entre o doce e o frescor.",
     category: "doce",
     bakeTime: "5 a 7 minutos",
     ingredients: [
-      { name: "Chocolate ao leite ou meio amargo picado", quantity: "100 g" }, // CONFERIR
-      { name: "Morangos frescos fatiados", quantity: "8 unidades" },
-      { name: "Açúcar de confeiteiro (para polvilhar)", quantity: "a gosto" },
+      { name: "Chocolate ao leite picado", quantity: "80 g" },
+      { name: "Morangos frescos fatiados", quantity: "80 g" },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
-      { text: "Distribua o chocolate picado por toda a superfície da massa." },
+      { text: "Leve a massa ao forno por 3 minutos, apenas para aquecê-la." },
       {
-        text: "Leve ao forno por 5 a 7 minutos, só até o chocolate derreter — sem deixar dourar demais a massa.",
+        text: "Retire a massa do forno e distribua o chocolate ao leite picado de maneira uniforme.",
       },
       {
-        text: "Retire do forno e espalhe os morangos fatiados sobre o chocolate ainda derretido.",
+        text: "Volte ao forno por 2 a 3 minutos, somente até que o chocolate esteja macio e comece a derreter.",
       },
-      { text: "Polvilhe açúcar de confeiteiro por cima." },
-      { text: "Sirva morna, em fatias pequenas." },
+      {
+        text: "Retire a pizza do forno e espalhe o chocolate delicadamente com uma espátula de silicone ou as costas de uma colher, formando uma camada uniforme.",
+      },
+      {
+        text: "Distribua os morangos fatiados sobre o chocolate e sirva imediatamente.",
+      },
     ],
     secret:
-      "Pizza doce assa menos tempo que a salgada — o objetivo é só derreter o chocolate, nunca ressecar a massa. Os morangos sempre entram frios, depois do forno.",
+      "O chocolate precisa apenas derreter, não assar. Deixe-o no forno por poucos minutos e retire assim que estiver macio. Se aquecer demais, ele pode perder a cremosidade e adquirir um sabor amargo.",
   },
   {
     slug: "doce-de-leite-com-banana",
@@ -300,21 +337,31 @@ export const recipes: Recipe[] = [
     bakeTime: "5 a 7 minutos",
     ingredients: [
       { name: "Doce de leite cremoso", quantity: "100 g" },
-      { name: "Banana nanica fatiada", quantity: "2 unidades" },
+      { name: "Banana madura em rodelas", quantity: "80 g" },
       { name: "Canela em pó", quantity: "a gosto" },
+      {
+        name: "Dica: Prefira um doce de leite mais firme, que espalhe facilmente sem escorrer.",
+        quantity: "",
+      },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
-      { text: "Espalhe o doce de leite uniformemente por toda a massa." },
-      { text: "Distribua as fatias de banana sobre o doce de leite." },
+      { text: "Leve a massa ao forno por 3 minutos, apenas para aquecê-la." },
       {
-        text: "Leve ao forno por 5 a 7 minutos, até a banana começar a caramelizar levemente.",
+        text: "Retire a massa do forno e espalhe o doce de leite com uma espátula ou com as costas de uma colher, formando uma camada uniforme.",
       },
-      { text: "Retire do forno e polvilhe canela em pó." },
-      { text: "Sirva morna, em fatias pequenas." },
+      {
+        text: "Distribua as rodelas de banana por toda a pizza, sem sobrepô-las em excesso.",
+      },
+      {
+        text: "Leve novamente ao forno por 2 a 3 minutos, apenas para aquecer o recheio.",
+      },
+      {
+        text: "Retire do forno, finalize com a canela em pó e sirva imediatamente.",
+      },
     ],
     secret:
-      "A banana vai ao forno junto — diferente do morango — porque é o calor que caramelíza levemente sua superfície e intensifica o sabor. Fatie na hora para evitar que escureça antes de assar.",
+      "Utilize bananas maduras, mas firmes. Elas ficam mais doces naturalmente e mantêm sua textura durante o rápido tempo de forno.",
   },
 ];
 
