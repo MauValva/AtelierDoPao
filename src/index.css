@@ -1,0 +1,178 @@
+:root {
+  --cream: #f7f1e6;
+  --cream-deep: #efe5d1;
+  --ink: #2b2118;
+  --ink-soft: #5a4d3f;
+  --wine: #7a1f1d;
+  --wine-deep: #591513;
+  --forest: #303f31;
+  --forest-soft: #4a5c47;
+  --gold: #b0824f;
+  --gold-soft: #d8b98a;
+  --line: rgba(43, 33, 24, 0.14);
+
+  --serif: "Fraunces", "Iowan Old Style", serif;
+  --sans: "Manrope", system-ui, sans-serif;
+
+  --maxw: 1120px;
+  --radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.55;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  color: inherit;
+}
+button {
+  font-family: inherit;
+}
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.eyebrow {
+  font-family: var(--sans);
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.display {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--wine);
+  letter-spacing: -0.01em;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--forest);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.divider {
+  height: 3px;
+  width: 64px;
+  background: var(--gold);
+  border-radius: 2px;
+  margin: 14px 0 28px;
+}
+
+/* borda "dentada", assinatura visual usada entre seções */
+.crust-edge {
+  height: 22px;
+  width: 100%;
+  background: var(--cream);
+  --tooth: 26px;
+  -webkit-mask-image: radial-gradient(
+    circle at var(--tooth) 0,
+    transparent calc(var(--tooth) - 1px),
+    #000 var(--tooth)
+  );
+  mask-image: radial-gradient(
+    circle at var(--tooth) 0,
+    transparent calc(var(--tooth) - 1px),
+    #000 var(--tooth)
+  );
+  -webkit-mask-size: 52px 22px;
+  mask-size: 52px 22px;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+}
+
+/* carimbo, usado nos números das receitas e do guia de forno */
+.stamp {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  border: 1.5px solid currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+}
+.stamp::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  opacity: 0.5;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  padding: 12px 22px;
+  border-radius: 2px;
+  border: 1.5px solid var(--wine);
+  color: var(--wine);
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+.btn:hover {
+  background: var(--wine);
+  color: var(--cream);
+}
+.btn.solid {
+  background: var(--wine);
+  color: var(--cream);
+}
+.btn.solid:hover {
+  background: var(--wine-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,25 @@
+.hero {
+  position: relative;
+}
+.hero__photo {
+  height: min(58vh, 560px);
+  width: 100%;
+}
+.hero__content {
+  padding: 44px 28px 56px;
+  max-width: 760px;
+}
+.hero__title {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  color: var(--wine);
+  margin: 10px 0 18px;
+  line-height: 1.02;
+}
+.hero__subtitle {
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  max-width: 52ch;
+  margin: 0 0 28px;
+}

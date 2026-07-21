@@ -1,0 +1,68 @@
+.balance {
+  background: var(--forest);
+  color: var(--cream);
+  padding: 64px 0;
+  margin-top: 40px;
+}
+.balance__title {
+  color: var(--cream);
+  font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+  margin: 8px 0 20px;
+}
+.balance .eyebrow {
+  color: var(--gold-soft);
+}
+.balance__intro {
+  max-width: 68ch;
+  color: rgba(247, 241, 230, 0.85);
+  margin-bottom: 36px;
+}
+.balance__table {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(247, 241, 230, 0.2);
+}
+.balance__row {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 2fr;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(247, 241, 230, 0.15);
+}
+.balance__row--head {
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-soft);
+}
+.balance__label {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.balance__qty {
+  color: var(--gold-soft);
+  font-weight: 700;
+}
+.balance__note {
+  color: rgba(247, 241, 230, 0.78);
+  font-size: 0.92rem;
+}
+.balance__closing {
+  margin-top: 32px;
+  max-width: 62ch;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--gold-soft);
+}
+@media (max-width: 700px) {
+  .balance__row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .balance__row--head {
+    display: none;
+  }
+}
