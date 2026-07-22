@@ -14,8 +14,8 @@ export default function RecipeGrid() {
 
   return (
     <section className="recipes wrap" id="receitas">
-      <p className="eyebrow">10 receitas</p>
-      <h2 className="recipes__title display">Uma massa, dez caminhos</h2>
+      <p className="eyebrow">Receitas</p>
+      <h2 className="recipes__title display">Uma massa, muitos caminhos</h2>
       <div
         className="recipes__filters"
         role="tablist"
