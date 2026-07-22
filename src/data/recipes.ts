@@ -150,9 +150,53 @@ export const recipes: Recipe[] = [
       "O presunto Parma e a rúcula devem ser adicionados somente após a pizza sair do forno. O calor da pizza é suficiente para realçar o sabor do Parma, enquanto a rúcula mantém seu frescor e leve picância, criando um contraste perfeito com a mozzarella.",
   },
   {
+    slug: "Strogonoff",
+    image: "/images/pizzas/Strogonoff.webp",
+    order: 5,
+    name: "Strogonoff",
+    tagline: "O sabor que conquistou a mesa dos gaúchos.",
+    category: "salgada",
+    bakeTime: "7 a 9 minutos",
+    ingredients: [
+      { name: "Molho do strogonoff", quantity: "70 g" },
+      { name: "Carne ou frango do strogonoff", quantity: "120 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
+      { name: "Batata palha", quantity: "a gosto" },
+      {
+        name: "Dica: Utilize um molho de strogonoff cremoso e bem encorpado. Evite preparações muito líquidas para preservar a textura da massa.",
+        quantity: "",
+      },
+    ],
+    steps: [
+      {
+        text: "Unte a assadeira e posicione a massa pré-assada sobre ela.",
+      },
+      {
+        text: "Espalhe o molho de strogonoff uniformemente sobre a massa, deixando a borda livre.",
+      },
+      {
+        text: "Distribua a mozzarella sobre toda a pizza.",
+      },
+      {
+        text: "Leve ao forno por 3 a 4 minutos, apenas até que o queijo esteja completamente derretido.",
+      },
+      {
+        text: "Retire a pizza do forno e distribua a carne ou frango do strogonoff.",
+      },
+      {
+        text: "Leve ao forno por mais 4 a 5 minutos, para aquecer e tostar um pouco a carne.",
+      },
+      {
+        text: "Retire do forno e finalize com batata palha.",
+      },
+    ],
+    secret:
+      "O segredo está no equilíbrio do molho. Utilize apenas a quantidade necessária para cobrir a massa e adicione a carne somente após o queijo derreter. Assim, a pizza mantém a massa firme, o recheio cremoso e a batata palha continua irresistivelmente crocante.",
+  },
+  {
     slug: "cogumelos",
     image: "/images/pizzas/Cogumelos.webp",
-    order: 5,
+    order: 6,
     name: "Cogumelos",
     tagline: "Sabores terrosos e muito aroma.",
     category: "salgada",
@@ -190,7 +234,7 @@ export const recipes: Recipe[] = [
   {
     slug: "frango-com-requeijao",
     image: "/images/pizzas/FrangoRequeijao.webp",
-    order: 6,
+    order: 7,
     name: "Frango com Requeijão",
     tagline: "A favorita brasileira em versão artesanal.",
     category: "salgada",
@@ -225,7 +269,7 @@ export const recipes: Recipe[] = [
   {
     slug: "bacon-milho-requeijao",
     image: "/images/pizzas/BaconMilhoRequeijao.webp",
-    order: 7,
+    order: 8,
     name: "Bacon, Milho e Requeijão",
     tagline: "O encontro perfeito entre crocância e cremosidade.",
     category: "salgada",
@@ -262,7 +306,7 @@ export const recipes: Recipe[] = [
   {
     slug: "lombinho-geleia-pimenta",
     image: "/images/pizzas/LombinhoGeleia.webp",
-    order: 8,
+    order: 9,
     name: "Lombinho e Geleia de Abacaxi com Pimenta",
     tagline: "O equilíbrio perfeito entre o defumado, o cremoso e o agridoce.",
     category: "salgada",
@@ -299,7 +343,7 @@ export const recipes: Recipe[] = [
   {
     slug: "chocolate-com-morangos",
     image: "/images/pizzas/ChocolateMorangos.webp",
-    order: 9,
+    order: 10,
     name: "Chocolate com Morangos",
     tagline: "O encontro perfeito entre o doce e o frescor.",
     category: "doce",
@@ -330,7 +374,7 @@ export const recipes: Recipe[] = [
   {
     slug: "doce-de-leite-com-banana",
     image: "/images/pizzas/DoceDeLeiteBanana.webp",
-    order: 10,
+    order: 11,
     name: "Doce de Leite com Banana",
     tagline: "Simples, afetiva, do jeito que pizza doce deveria ser.",
     category: "doce",
