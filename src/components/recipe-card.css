@@ -16,28 +16,31 @@
   position: relative;
   aspect-ratio: 4 / 3;
 }
-.recipe-card__stamp {
-  position: absolute;
-  bottom: -18px;
-  right: 16px;
-  background: var(--cream);
-  color: var(--wine);
-}
-.recipe-card__stamp.doce {
-  color: var(--forest);
-}
 .recipe-card__body {
   padding: 30px 18px 18px;
-}
-.recipe-card__body h3 {
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--ink);
-  margin: 0 0 6px;
 }
 .recipe-card__body p {
   font-size: 0.86rem;
   color: var(--ink-soft);
   margin: 0;
+}
+.recipe-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--wine);
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+.recipe-card__body h3 {
+  margin: 0 0 10px;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--ink);
+  line-height: 1.2;
 }

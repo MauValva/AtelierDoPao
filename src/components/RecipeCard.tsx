@@ -12,13 +12,12 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
           alt={`Pizza ${recipe.name}`}
           label={recipe.name}
         />
-        <span className={`recipe-card__stamp stamp ${recipe.category}`}>
-          {recipe.order}
-        </span>
       </div>
+
       <div className="recipe-card__body">
         <h3>{recipe.name}</h3>
         <p>{recipe.tagline}</p>
+        <span className="recipe-card__cta">Ver receita →</span>
       </div>
     </Link>
   );
