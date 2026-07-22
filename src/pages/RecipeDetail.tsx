@@ -37,10 +37,14 @@ export default function RecipeDetail() {
           ← Todas as receitas
         </Link>
 
-        <span className={`stamp recipe-detail__stamp ${recipe.category}`}>
-          {recipe.order}
-        </span>
-        <h1 className="recipe-detail__title display">{recipe.name}</h1>
+        <div className="recipe-detail__heading">
+          <span className={`stamp recipe-detail__stamp ${recipe.category}`}>
+            {recipe.order}
+          </span>
+
+          <h1 className="recipe-detail__title display">{recipe.name}</h1>
+        </div>
+
         <p className="recipe-detail__tagline">{recipe.tagline}</p>
         <div className="divider" />
 

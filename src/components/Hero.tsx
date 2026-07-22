@@ -14,9 +14,8 @@ export default function Hero() {
         <p className="eyebrow">Atelier do Pão · Fermentação Natural</p>
         <h1 className="hero__title">Pizza Artesanal em Casa</h1>
         <p className="hero__subtitle">
-          10 receitas desenvolvidas para a nossa massa pré-assada — a mesma
-          fermentação natural e a mesma farinha italiana do pão que você já
-          conhece.
+          A mesma fermentação natural e a mesma farinha italiana do pão que você
+          já conhece.
         </p>
         <a href="#receitas" className="btn solid">
           Ver as receitas ↓

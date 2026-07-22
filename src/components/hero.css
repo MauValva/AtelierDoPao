@@ -2,7 +2,7 @@
   position: relative;
 }
 .hero__photo {
-  height: min(58vh, 560px);
+  height: min(58vh, 240px);
   width: 100%;
 }
 .hero__content {

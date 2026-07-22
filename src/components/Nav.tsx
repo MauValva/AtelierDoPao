@@ -1,10 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./nav.css";
+import Logo from "./Logo";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [logoError, setLogoError] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -27,10 +29,7 @@ export default function Nav() {
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="nav__inner wrap">
         <Link to="/" className="nav__brand">
-          <span className="nav__wheat" aria-hidden>
-            🌾
-          </span>
-          Atelier do Pão
+          <Logo className="nav__logo" />
         </Link>
         <nav className="nav__links nav__links--desktop">
           {links.map((l) => (

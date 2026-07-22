@@ -17,7 +17,7 @@ const items = [
     note: "Fatiadas ou desfiadas finas, nunca em blocos grossos.",
   },
   {
-    label: "Requeijão / Catupiry®",
+    label: "Requeijão",
     qty: "30 a 50 g",
     note: "Em pontos ou fios — não em camada única e pesada.",
   },
@@ -47,8 +47,7 @@ export default function Balance() {
           O equilíbrio da pizza artesanal
         </h2>
         <p className="balance__intro">
-          Uma pizza bem-feita não é a mais recheada — é a mais equilibrada. A
-          massa pré-assada é fina e leve de propósito: ela pede quantidade
+          A massa pré-assada é fina e leve de propósito: Ela pede quantidade
           certa, não quantidade máxima. Use a tabela abaixo como referência para
           qualquer receita nova que você quiser criar.
         </p>
@@ -74,8 +73,7 @@ export default function Balance() {
         </div>
         <p className="balance__closing">
           Exagerar no recheio pesa a massa, impede que ela asse por igual e
-          esconde o sabor da fermentação natural que é a nossa assinatura. Menos
-          ingrediente, mais sabor — esse é o padrão Atelier do Pão.
+          esconde o sabor da fermentação natural que é a nossa assinatura.
         </p>
       </div>
     </section>

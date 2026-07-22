@@ -11,7 +11,7 @@ const steps = [
   },
   {
     title: "Monte com moderação",
-    text: "Siga as quantidades do guia de equilíbrio — evite excesso de recheio.",
+    text: "Siga as quantidades do guia de equilíbrio, evite excesso de recheio.",
   },
   {
     title: "Respeite os tempos",

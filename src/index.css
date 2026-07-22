@@ -155,11 +155,12 @@ button {
   color: var(--cream);
 }
 .btn.solid {
-  background: var(--wine);
+  background: var(--forest);
   color: var(--cream);
+  border-color: var(--forest-soft);
 }
 .btn.solid:hover {
-  background: var(--wine-deep);
+  background: var(--forest);
 }
 
 :focus-visible {

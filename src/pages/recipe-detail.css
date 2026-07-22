@@ -15,18 +15,23 @@
   text-decoration: none;
   margin-bottom: 28px;
 }
+.recipe-detail__heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
 .recipe-detail__stamp {
-  position: absolute;
-  top: 40px;
-  right: 28px;
+  position: static;
   color: var(--wine);
+  flex-shrink: 0;
 }
 .recipe-detail__stamp.doce {
   color: var(--forest);
 }
 .recipe-detail__title {
+  margin: 0;
   font-size: clamp(2rem, 5vw, 3rem);
-  margin: 0 0 8px;
 }
 .recipe-detail__tagline {
   font-style: italic;

@@ -27,12 +27,9 @@ export default function Welcome() {
         A massa que o Atelier do Pão pré-assa para você
       </h2>
       <p className="welcome__intro">
-        Tudo começou com um único pão de fermentação natural de 650 g, feito com
-        farinha italiana e muita paciência. A massa de pizza pré-assada nasceu
-        da mesma bancada, o mesmo cuidado, agora em um formato pensado para a
-        sua cozinha. Este é o guia que preparamos para acompanhar cada massa:
-        dez receitas, o equilíbrio certo de recheio e um passo a passo para
-        assar como em uma pizzaria de bairro italiano.
+        Este é o guia que preparamos para acompanhar cada massa: O equilíbrio
+        certo de recheio e um passo a passo para assar como em uma pizzaria de
+        bairro italiano.
       </p>
       <div className="welcome__grid">
         {pillars.map((p) => (
