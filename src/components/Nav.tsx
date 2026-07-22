@@ -20,7 +20,10 @@ export default function Nav() {
   const isHome = location.pathname === "/";
   const links = [
     { href: isHome ? "#receitas" : "/#receitas", label: "Receitas" },
-    { href: isHome ? "#equilibrio" : "/#equilibrio", label: "O equilíbrio" },
+    {
+      href: isHome ? "#equilibrio" : "/#equilibrio",
+      label: "Crie sua receita",
+    },
     { href: isHome ? "#como-assar" : "/#como-assar", label: "Como assar" },
     { href: isHome ? "#contato" : "/#contato", label: "Pedidos" },
   ];

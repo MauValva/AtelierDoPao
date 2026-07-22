@@ -44,7 +44,7 @@ export default function Balance() {
       <div className="wrap">
         <p className="eyebrow">A filosofia do Atelier</p>
         <h2 className="balance__title display">
-          O equilíbrio da pizza artesanal
+          Crie sua pizza com equilíbrio e viva a experiência italiana.
         </h2>
         <p className="balance__intro">
           A massa pré-assada é fina e leve de propósito: Ela pede quantidade
@@ -72,8 +72,9 @@ export default function Balance() {
           ))}
         </div>
         <p className="balance__closing">
-          Exagerar no recheio pesa a massa, impede que ela asse por igual e
-          esconde o sabor da fermentação natural que é a nossa assinatura.
+          O excesso de recheio ou ingredientes muito úmidos dificulta o
+          cozimento da massa, reduz a crocância e acaba escondendo o sabor da
+          fermentação natural, que é a nossa assinatura.
         </p>
       </div>
     </section>
