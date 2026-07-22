@@ -1,5 +1,5 @@
 .balance {
-  background: var(--forest-soft);
+  background: var(--forest);
   color: var(--cream);
   padding: 64px 0;
   margin-top: 40px;
@@ -9,8 +9,11 @@
   font-size: clamp(1.6rem, 3.4vw, 2.3rem);
   margin: 8px 0 20px;
 }
-.balance .eyebrow {
+.balance__title.display {
   color: var(--gold-soft);
+}
+.balance .eyebrow {
+  color: var(--cream);
 }
 .balance__intro {
   max-width: 68ch;
