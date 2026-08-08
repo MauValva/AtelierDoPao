@@ -15,10 +15,9 @@ export interface Recipe {
   name: string;
   tagline: string;
   category: RecipeCategory;
-  bakeTime: string;
+  bakeMinutesAt250: number;
   ingredients: Ingredient[];
   steps: RecipeStep[];
   secret: string;
-  /** caminho de uma foto que vocês adicionarem depois em /public/images/pizzas/ */
-  image: string;
+  image?: string;
 }

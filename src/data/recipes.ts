@@ -20,7 +20,7 @@ export const recipes: Recipe[] = [
     name: "Margherita",
     tagline: "O clássico da simplicidade.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 8,
     ingredients: [
       { name: "Molho de tomate", quantity: "70 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "110 g" },
@@ -33,7 +33,7 @@ export const recipes: Recipe[] = [
       },
       { text: "Distribua a mozzarella de forma uniforme sobre toda a pizza." },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+        text: "Leve ao forno, até que o queijo esteja completamente derretido e levemente gratinado.",
       },
       {
         text: "Retire a pizza do forno e finalize com as folhas de manjericão fresco.",
@@ -49,7 +49,7 @@ export const recipes: Recipe[] = [
     name: "Calabresa",
     tagline: "Um clássico brasileiro com inspiração italiana.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 9,
     ingredients: [
       { name: "Molho de tomate", quantity: "70 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
@@ -67,7 +67,7 @@ export const recipes: Recipe[] = [
       { text: "Espalhe a cebola fatiada sobre a pizza." },
       { text: "Finalize com uma pitada de orégano." },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+        text: "Leve ao forno, até que o queijo esteja completamente derretido e levemente gratinado.",
       },
     ],
     secret:
@@ -80,7 +80,7 @@ export const recipes: Recipe[] = [
     name: "Quatro Queijos",
     tagline: "Cremosidade em camadas, sem pesar na massa.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 8,
     ingredients: [
       { name: "Molho de tomate", quantity: "60 g" },
       { name: "Mozzarella ralada", quantity: "70 g" },
@@ -105,7 +105,7 @@ export const recipes: Recipe[] = [
       },
       { text: "Finalize com o parmesão ralado e uma pitada de orégano." },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que os queijos estejam completamente derretidos e levemente gratinados.",
+        text: "Leve ao forno, até que os queijos estejam completamente derretidos e levemente gratinados.",
       },
     ],
     secret:
@@ -118,7 +118,7 @@ export const recipes: Recipe[] = [
     name: "Parma e Rúcula",
     tagline: "Elegância em poucos ingredientes.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 7,
     ingredients: [
       { name: "Molho de tomate", quantity: "70 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
@@ -135,7 +135,7 @@ export const recipes: Recipe[] = [
         text: "Distribua a mozzarella de forma uniforme sobre toda a pizza.",
       },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+        text: "Leve ao forno, até que o queijo esteja completamente derretido e levemente gratinado.",
       },
       {
         text: "Retire a pizza do forno.",
@@ -156,7 +156,7 @@ export const recipes: Recipe[] = [
     name: "Strogonoff",
     tagline: "O sabor que conquistou a mesa dos gaúchos.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 9,
     ingredients: [
       { name: "Molho do strogonoff", quantity: "70 g" },
       { name: "Carne ou frango do strogonoff", quantity: "120 g" },
@@ -178,13 +178,13 @@ export const recipes: Recipe[] = [
         text: "Distribua a mozzarella sobre toda a pizza.",
       },
       {
-        text: "Leve ao forno por 3 a 4 minutos, apenas até que o queijo esteja completamente derretido.",
+        text: "Leve ao forno, apenas até que o queijo esteja completamente derretido.",
       },
       {
         text: "Retire a pizza do forno e distribua a carne ou frango do strogonoff.",
       },
       {
-        text: "Leve ao forno por mais 4 a 5 minutos, para aquecer e tostar um pouco a carne.",
+        text: "Leve ao forno, para aquecer e tostar um pouco a carne.",
       },
       {
         text: "Retire do forno e finalize com batata palha.",
@@ -200,7 +200,7 @@ export const recipes: Recipe[] = [
     name: "Cogumelos",
     tagline: "Sabores terrosos e muito aroma.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 9,
     ingredients: [
       { name: "Molho de tomate", quantity: "60 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "90 g" },
@@ -222,7 +222,7 @@ export const recipes: Recipe[] = [
       { text: "Distribua a mozzarella de forma uniforme sobre toda a pizza." },
       { text: "Espalhe os cogumelos sobre a mozzarella." },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+        text: "Leve ao forno, até que o queijo esteja completamente derretido e levemente gratinado.",
       },
       {
         text: "Retire a pizza do forno e finalize com as folhas de manjericão fresco.",
@@ -238,7 +238,7 @@ export const recipes: Recipe[] = [
     name: "Frango com Requeijão",
     tagline: "A favorita brasileira em versão artesanal.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 9,
     ingredients: [
       { name: "Molho de tomate", quantity: "70 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
@@ -260,7 +260,7 @@ export const recipes: Recipe[] = [
       },
       { text: "Finalize com uma pitada de orégano." },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+        text: "Leve ao forno, até que o queijo esteja completamente derretido e levemente gratinado.",
       },
     ],
     secret:
@@ -273,7 +273,7 @@ export const recipes: Recipe[] = [
     name: "Bacon, Milho e Requeijão",
     tagline: "O encontro perfeito entre crocância e cremosidade.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 9,
     ingredients: [
       { name: "Molho de tomate", quantity: "70 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
@@ -297,7 +297,7 @@ export const recipes: Recipe[] = [
       { text: "Distribua pequenas porções de requeijão por toda a pizza." },
       { text: "Finalize com uma pitada de orégano." },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+        text: "Leve ao forno, até que o queijo esteja completamente derretido e levemente gratinado.",
       },
     ],
     secret:
@@ -310,7 +310,7 @@ export const recipes: Recipe[] = [
     name: "Lombinho e Geleia de Abacaxi com Pimenta",
     tagline: "O equilíbrio perfeito entre o defumado, o cremoso e o agridoce.",
     category: "salgada",
-    bakeTime: "7 a 9 minutos",
+    bakeMinutesAt250: 9,
     ingredients: [
       { name: "Molho de tomate", quantity: "60 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
@@ -331,7 +331,7 @@ export const recipes: Recipe[] = [
         text: "Distribua pequenas porções de requeijão entre as fatias de lombinho.",
       },
       {
-        text: "Leve ao forno por 7 a 9 minutos, ou até que o queijo esteja completamente derretido e levemente gratinado.",
+        text: "Leve ao forno, até que o queijo esteja completamente derretido e levemente gratinado.",
       },
       {
         text: "Retire a pizza do forno e finalize com pequenas porções da geleia de abacaxi com pimenta.",
@@ -347,7 +347,7 @@ export const recipes: Recipe[] = [
     name: "Chocolate com Morangos",
     tagline: "O encontro perfeito entre o doce e o frescor.",
     category: "doce",
-    bakeTime: "5 a 7 minutos",
+    bakeMinutesAt250: 6,
     ingredients: [
       { name: "Chocolate ao leite picado", quantity: "80 g" },
       { name: "Morangos frescos fatiados", quantity: "80 g" },
@@ -378,7 +378,7 @@ export const recipes: Recipe[] = [
     name: "Doce de Leite com Banana",
     tagline: "Simples, afetiva, do jeito que pizza doce deveria ser.",
     category: "doce",
-    bakeTime: "5 a 7 minutos",
+    bakeMinutesAt250: 6,
     ingredients: [
       { name: "Doce de leite cremoso", quantity: "100 g" },
       { name: "Banana madura em rodelas", quantity: "80 g" },

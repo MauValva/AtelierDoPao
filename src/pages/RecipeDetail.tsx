@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { getRecipeBySlug, recipes } from "../data/recipes";
 import PhotoSlot from "../components/PhotoSlot";
 import "./recipe-detail.css";
+import OvenTimePanel from "../components/OvenTimePanel";
 
 export default function RecipeDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -76,8 +77,7 @@ export default function RecipeDetail() {
               👨‍🍳 Modo de preparo
             </h2>
             <p className="recipe-detail__preheat">
-              <strong>Antes de começar:</strong> pré-aqueça o forno por pelo
-              menos 15 minutos a 250°C.
+              <OvenTimePanel baseMinutes={recipe.bakeMinutesAt250} />
             </p>
             <ol className="recipe-detail__steps">
               {recipe.steps.map((step, i) => (
@@ -87,9 +87,6 @@ export default function RecipeDetail() {
                 </li>
               ))}
             </ol>
-            <p className="recipe-detail__baketime">
-              Tempo de forno: {recipe.bakeTime}
-            </p>
           </section>
         </div>
 

@@ -1,0 +1,64 @@
+.oven-panel {
+  background: var(--cream-deep);
+  border: 1px solid var(--line);
+  padding: 10px 24px 0px;
+}
+.oven-panel__preheat {
+  margin: 0 0 18px;
+  font-size: 0.92rem;
+  border-left: 3px solid var(--gold);
+  padding-left: 12px;
+}
+.oven-panel__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.oven-panel__label {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--forest);
+}
+.oven-panel__select {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 8px 14px;
+  border: 1.5px solid var(--wine);
+  border-radius: 999px;
+  background: var(--cream);
+  color: var(--wine);
+  cursor: pointer;
+}
+.oven-panel__result {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.oven-panel__time {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--wine);
+}
+.oven-panel__hint {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+.oven-panel__grill {
+  background: var(--cream);
+  border: 1px dashed var(--gold);
+  padding: 12px 14px;
+  font-size: 0.9rem;
+  margin: 0 0 12px;
+}
+.oven-panel__note {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: 0;
+  font-style: italic;
+}
