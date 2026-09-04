@@ -22,8 +22,8 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 8,
     ingredients: [
-      { name: "Molho de tomate", quantity: "70 g" },
-      { name: "Mozzarella ralada ou fatiada", quantity: "110 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "160 g" },
       { name: "Folhas de manjericão fresco", quantity: "6 a 8 folhas" },
     ],
     steps: [
@@ -51,9 +51,9 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 9,
     ingredients: [
-      { name: "Molho de tomate", quantity: "70 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
-      { name: "Calabresa fatiada fina", quantity: "70 g" },
+      { name: "Calabresa fatiada fina", quantity: "120 g" },
       { name: "Cebola roxa em rodelas finas", quantity: "25 g" },
       { name: "Orégano", quantity: "a gosto" },
     ],
@@ -82,11 +82,11 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 8,
     ingredients: [
-      { name: "Molho de tomate", quantity: "60 g" },
-      { name: "Mozzarella ralada", quantity: "70 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
+      { name: "Mozzarella ralada", quantity: "100 g" },
       { name: "Gorgonzola", quantity: "20 g" },
-      { name: "Parmesão ralado", quantity: "15 g" },
-      { name: "Requeijão cremoso", quantity: "30 g" },
+      { name: "Parmesão ralado", quantity: "20 g" },
+      { name: "Requeijão cremoso", quantity: "50 g" },
       { name: "Orégano", quantity: "a gosto" },
     ],
     steps: [
@@ -120,7 +120,7 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 7,
     ingredients: [
-      { name: "Molho de tomate", quantity: "70 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
       { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
       { name: "Presunto Parma fatiado", quantity: "50 g" },
       { name: "Rúcula fresca", quantity: "20 g" },
@@ -160,7 +160,7 @@ export const recipes: Recipe[] = [
     ingredients: [
       { name: "Molho do strogonoff", quantity: "70 g" },
       { name: "Carne ou frango do strogonoff", quantity: "120 g" },
-      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
       { name: "Batata palha", quantity: "a gosto" },
       {
         name: "Dica: Utilize um molho de strogonoff cremoso e bem encorpado. Evite preparações muito líquidas para preservar a textura da massa.",
@@ -202,9 +202,9 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 9,
     ingredients: [
-      { name: "Molho de tomate", quantity: "60 g" },
-      { name: "Mozzarella ralada ou fatiada", quantity: "90 g" },
-      { name: "Cogumelos fatiados", quantity: "80 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
+      { name: "Cogumelos fatiados", quantity: "120 g" },
       { name: "Folhas de manjericão fresco", quantity: "6 a 8 folhas" },
       {
         name: "Sugestão: Cogumelo Paris, Shimeji, Shiitake ou Portobello.",
@@ -240,9 +240,9 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 9,
     ingredients: [
-      { name: "Molho de tomate", quantity: "70 g" },
-      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
-      { name: "Frango desfiado temperado", quantity: "80 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
+      { name: "Frango desfiado temperado", quantity: "120 g" },
       { name: "Requeijão cremoso", quantity: "50 g" },
       { name: "Orégano", quantity: "a gosto" },
     ],
@@ -275,11 +275,11 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 9,
     ingredients: [
-      { name: "Molho de tomate", quantity: "70 g" },
-      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
-      { name: "BBacon em cubos", quantity: "60 g" }, // CONFERIR
-      { name: "Milho verde", quantity: "40 g" },
-      { name: "Requeijão cremoso", quantity: "40 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
+      { name: "Bacon em cubos", quantity: "60 g" },
+      { name: "Milho verde", quantity: "50 g" },
+      { name: "Requeijão cremoso", quantity: "50 g" },
       { name: "Orégano", quantity: "a gosto" },
     ],
     steps: [
@@ -312,11 +312,11 @@ export const recipes: Recipe[] = [
     category: "salgada",
     bakeMinutesAt250: 9,
     ingredients: [
-      { name: "Molho de tomate", quantity: "60 g" },
-      { name: "Mozzarella ralada ou fatiada", quantity: "80 g" },
+      { name: "Molho de tomate", quantity: "50 g" },
+      { name: "Mozzarella ralada ou fatiada", quantity: "100 g" },
       { name: "Lombinho defumado fatiado", quantity: "70 g" },
       { name: "Geleia de abacaxi com pimenta", quantity: "30 g" },
-      { name: "Requeijão cremoso", quantity: "40 g" },
+      { name: "Requeijão cremoso", quantity: "50 g" },
     ],
     steps: [
       { text: "Unte a assadeira e posicione a massa pré-assada sobre ela." },
